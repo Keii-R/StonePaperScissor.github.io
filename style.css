@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    }
+.background{
+    position: fixed;
+    background-image: url(./Images/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/*HEADER START*/
+
+.header{
+    padding-top: 1.5%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vh;
+}
+
+#robot{
+    height: 20vh;
+    width: 12vw;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+#human{
+    height: 20vh;
+    width: 12vw;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+/*HEADER END*/
+
+/*CHOICE START*/
+.mainBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.choiceC{
+    display: inline;
+    height: 47vh;
+    width: 10vw;
+}
+.choiceC img{
+    border: solid 2px white;
+    filter: grayscale(20%) saturate(30%) opacity(90%) contrast(140%);
+    height: 15vh;
+    width: 10vw;
+    border-radius: 40%;
+}
+.selectC img{
+    border: solid 2px black;
+    filter: grayscale(20%) saturate(30%) opacity(90%) contrast(140%);
+    border-radius: 30%;
+    margin-top: 13.5vh;
+    height: 17vh;
+    width: 12vw;
+}
+.result{
+    color: white;
+    margin-top: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 25vw;
+}
+.result h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.selectH img{
+    border: solid 2px black;
+    filter: grayscale(20%) saturate(30%) opacity(90%) contrast(140%);
+    border-radius: 30%;
+    margin-top: 13.5vh;
+    height: 17vh;
+    width: 12vw;
+}
+.choiceH {
+    display: inline;
+    height: 47vh;
+    width: 10vw;
+}
+.choiceH img{
+    border: solid 2px white;
+    filter: grayscale(20%) saturate(30%) opacity(90%) contrast(140%);
+    height: 15vh;
+    width: 10vw;
+    border-radius: 40%;
+}
+
+/*CHOICE END*/
